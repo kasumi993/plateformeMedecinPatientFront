@@ -200,6 +200,16 @@ img.add {
     min-width: 100%;
 }
 
+form input[type='email'], input[type='password'], input[type='text']{
+    padding: 15px;
+    border:none;
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    outline:none;
+    margin-bottom: 15px;
+    min-width: 350px;
+  }
+
 div.colonne {
     width: 49%;
     border-bottom: 3px solid gray;
