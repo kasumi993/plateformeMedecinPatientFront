@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TUTO JS - #13 Valider des formulaires (avec les événements)</title>
+	<link rel="stylesheet" type="text/css" href="design/default.css">
+    <script src="js/script.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+
+	<img class="info centre" src="logo_1.png">
+	<!-- <img class="" src="user.png"> -->
+
+	<section>
+		<div id="login-body" class="centre">
+			<div class="colonne1 colonne">
+				<p><a class="cnx" href="connexion.html">Se connecter</a></p>
+			</div>
+			<div class="colonne2 colonne">
+				<p><a class="cnx" href="inscription.html">Inscription</a></p>
+			</div>
+			<div class="centre form">
+				<form method="POST" name="inscription" action="formulairePatient.html">
+					<input type="text" name="nom" placeholder="Nom"><br>
+					<input type="text" name="prenom" placeholder="Prenom"><br>
+                    <input type="text" name="naissance" placeholder="Date de naissance"><br>
+                    <input type="text" name="tel" placeholder="Telephonne établissement"><br>
+					<input type="email" name="email" placeholder="Email"><br>
+                    <input type="text" name="numRue" placeholder="Nom etablissement"><br>
+                    <input type="text" name="rue" placeholder="Rue"><br>
+					<input type="text" name="numRue" placeholder="Numero de rue"><br>
+					<input type="text" name="ville" placeholder="Ville"><br>
+                    <input type="text" name="cp" placeholder="Code postal"><br>
+                    <input type="password" name="mdp" placeholder="Mot de passe"><br>
+					<input type="password" name="mdp" placeholder="Confirmer mot de passe"><br>
+						
+					
+					<p><a href="#">Condition générale d'utilisation</a></p>
+					<input class="button1" type="submit" value="Créer un compte" id="inscription">
+					<div id="trait"></div>
+				</form>
+			</div>
+			
+		</div>
+
+		<p style="color: red;" id="erreur"></p>
+	</section>
+
+</body>
+</html>
